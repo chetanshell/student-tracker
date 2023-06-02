@@ -65,7 +65,7 @@ function App() {
                 <button type="submit">Save</button>
             </form>
 
-            <form onSubmit={handleCourseSubmit}>
+            <form onSubmit={handleAssignmentSubmit}>
                 <h2>Student Course Tracker</h2>
                 <label htmlFor="course">Course:</label>
                 <input
